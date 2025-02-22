@@ -1,0 +1,51 @@
+:host {
+    --content-padding: 10px;
+  }
+  header {
+    display: block;
+    height: 60px;
+    padding: var(--content-padding);
+    box-shadow: 0px 5px 25px var(--shadow-color);
+  }
+  .content {
+    padding: var(--content-padding);
+  }
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ul {
+  display:flex;
+  gap: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div .category {
+  display: flex;
+  flex-direction: column;
+}
+
+div.category img {
+  width: 70%;
+}
+
+button {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 0px 5px 3px rgba(128, 128, 128, 0.441);
+  width: 250px;
+  height: 290px
+}
+
+li:hover {
+  background-color: green;
+  border-radius: 5px;
+  transform: scale(1.05) perspective(0.5px)
+}
+
+li {
+  list-style-type: none;
+}

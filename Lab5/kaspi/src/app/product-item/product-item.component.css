@@ -1,0 +1,87 @@
+.product-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-item img {
+    height: 250px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+  
+  .product-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    font-size: 15px;
+    color: #392f2f;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .buttons button{
+    margin-left: 10px;
+    width: 30px;
+    border: none;
+    background-color: white;
+  }
+  .buttons button:hover {
+    background-color: #e1e1e1;
+    border-radius: 10px;
+  } 
+  
+  .buttons a {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 30px;
+
+  }
+  .share-btn a {
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  .telegram {
+    background-color: #0088cc;
+  }
+  
+  .telegram:hover{
+    background-color: #006294;
+  }
+  
+  .whatsapp {
+    background-color: #25D366;
+  }
+  .whatsapp:hover {
+    background-color: #1ca04d;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .rating p{
+    margin-right: 20px;
+  }
