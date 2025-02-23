@@ -1,0 +1,36 @@
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.categories ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.categories li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.categories a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+.categories a:hover,
+.categories a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.router-link-active {
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}

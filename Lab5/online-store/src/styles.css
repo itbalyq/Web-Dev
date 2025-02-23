@@ -1,0 +1,54 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.categories a:hover {
+    background-color: white;
+    color: #ff6f00;
+}
+
+@media (max-width: 768px) {
+    .categories li {
+        display: block;
+        margin: 10px 0;
+    }
+}
