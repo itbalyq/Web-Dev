@@ -1,0 +1,12 @@
+#header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
