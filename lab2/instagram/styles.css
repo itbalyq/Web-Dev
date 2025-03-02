@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #3897f0;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px 0 20px 0;
+}
+
+.left-section {
+    flex-grow: 1;
+    max-width: 400px;
+    height: auto;
+}
+
+.left-section img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card, .signup-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.signup-card {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-btn, .fb-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    margin-top: 10px;
+    background-color: #3897f0;
+    color: white;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    color: #777;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+.fb-login {
+    background-color: transparent;
+    color: #3897f0;
+    font-weight: bold;
+}
+.fb-login:hover {
+    color: #2a5f9e;
+    text-decoration: underline;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00376b;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.get-app {
+    font-size: 14px;
+}
+
+.app-links img {
+    width: 160px;
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 175px;
+}
