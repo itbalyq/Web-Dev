@@ -1,0 +1,25 @@
+<main>
+  <a [routerLink]="['/']">
+    <header class="brand-name">
+      <img class="brand-icon" src="https://avatars.mds.yandex.net/i?id=00e6235b5ce70dcfa836f999e12e3b7ab6b0c9da-4078232-images-thumbs&n=13"
+        height="45px" alt="logo" aria-hidden="true">
+    </header>
+  </a>
+
+  <section class="content">
+    <ng-container *ngIf="isHomePage()">
+      <h1>Select a Category</h1>
+      <ul>
+        <li *ngFor="let category of categories">
+          <button (click)="selectCategory(category.id)">
+            <div class="category">
+              <img [src]="category.image">
+              <p>{{ category.name }}</p>
+            </div>
+          </button>
+        </li>
+      </ul>
+    </ng-container>
+    <router-outlet></router-outlet>
+  </section>
+</main>

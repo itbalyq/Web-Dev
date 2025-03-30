@@ -1,0 +1,13 @@
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+}

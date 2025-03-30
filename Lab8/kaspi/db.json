@@ -1,0 +1,343 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Clothing",
+      "image": "https://kaspi.kz/img/Clothes1.png"
+    },
+    {
+      "id": "2",
+      "name": "Electronics",
+      "image": "https://kaspi.kz/img/Phone.png"
+    },
+    {
+      "id": "3",
+      "name": "For pets",
+      "image": "https://kaspi.kz/img/Animals.png"
+    },
+    {
+      "id": "4",
+      "name": "Accessories",
+      "image": "https://kaspi.kz/img/Jewelry.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hb4/h96/85812013531166.jpg?format=gallery-medium",
+      "name": "Jacket",
+      "description": "High-quality brown jacket",
+      "rating": 4,
+      "link": "https://kaspi.kz/shop/p/pidzhak-978513-korichnevyi-46-118644284/?c=750000000&hasVariants=true",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/hb4/h96/85812013531166.jpg?format=gallery-medium"
+      ],
+      "likes": 3
+    },
+    {
+      "id": "2",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hb8/h20/86992651911198.jpg?format=gallery-medium",
+      "name": "Black dress",
+      "description": "Beautiful long black dress",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/sarafan-30295090-110067001-chernyi-42-123067218/?c=750000000&hasVariants=true",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/hb8/h20/86992651911198.jpg?format=gallery-medium",
+        "https://resources.cdn-kaspi.kz/img/m/p/h32/h8a/86992652238878.jpg?format=gallery-medium",
+        "https://resources.cdn-kaspi.kz/img/m/p/h26/h40/86992652107806.jpg?format=gallery-medium"
+      ],
+      "likes": 1
+    },
+    {
+      "id": "3",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h9f/h32/87181597409310.jpg?format=gallery-medium",
+      "name": "Pajamas",
+      "description": "Cute pajamas with cherries",
+      "rating": 5,
+      "link": "https://kaspi.kz/shop/p/pizhama-30310433-434436727-belyi-l-123798420/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h9f/h32/87181597409310.jpg?format=gallery-medium",
+        "https://resources.cdn-kaspi.kz/img/m/p/hc9/h09/87181597474846.jpg?format=gallery-medium",
+        "https://resources.cdn-kaspi.kz/img/m/p/ha2/hdd/87181597540382.jpg?format=gallery-medium"
+      ],
+      "likes": 2
+    },
+    {
+      "id": "4",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/p64/p35/20223454.jpg?format=gallery-medium",
+      "name": "Sports suit",
+      "description": "Green sports suit adidas",
+      "rating": 5,
+      "link": "https://kaspi.kz/shop/p/sportivnyi-kostjum-adidas-iy6655-zelenyi-m-133465288/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/p64/p35/20223454.jpg?format=gallery-medium",
+        "https://resources.cdn-kaspi.kz/img/m/p/pf3/p34/20223458.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "5",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h32/hee/86412000919582.jpg?format=gallery-medium",
+      "name": "T-shirt",
+      "description": "White T-shirt",
+      "rating": 4,
+      "link": "https://kaspi.kz/shop/p/futbolka-tespe-atk0173-belyi-48-103963176/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h32/hee/86412000919582.jpg?format=gallery-medium"
+      ],
+      "likes": 3
+    },
+    {
+      "id": "6",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h37/h3a/87172406542366.jpg?format=gallery-medium",
+      "name": "Skirt",
+      "description": "Black skirt",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/prjamaja-jubka-30214647-803183424-chernyi-m-123761391/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h37/h3a/87172406542366.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "7",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/p1c/p15/18438912.jpg?format=gallery-medium",
+      "name": "Puma sneakers",
+      "description": "White puma sneakers",
+      "rating": 5,
+      "link": "https://kaspi.kz/shop/p/kedy-puma-club-ii-era-397447p0p-belyi-39-132961226/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/p1c/p15/18438912.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "8",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/pe7/p1f/9543656.jpg?format=gallery-medium",
+      "name": "Fur coat",
+      "description": "Brown fur coat",
+      "rating": 4.6,
+      "link": "https://kaspi.kz/shop/p/shuba-30325590-176408744-korichnevyi-46-130377921/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/pe7/p1f/9543656.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "9",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h3e/hfe/85792384090142.jpg?format=gallery-medium",
+      "name": "Jeans",
+      "description": "Wide leg blue jeans",
+      "rating": 4.3,
+      "link": "https://kaspi.kz/shop/p/dzhinsy-palatstso-fashion-zz2024-sinii-zelenyi-w29-118573784/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h3e/hfe/85792384090142.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "10",
+      "categoryId": 1,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h43/h07/83607838228510.jpg?format=gallery-medium",
+      "name": "Scarf",
+      "description": "White scarf",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/sharf-1841-moher-kashemir-210-sm-x-35-sm-113188139/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h43/h07/83607838228510.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "15",
+      "categoryId": 2,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h1b/hd6/64377056231454.jpg?format=gallery-medium",
+      "name": "Apple Power Adapter",
+      "description": "USB Type-C white",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h1b/hd6/64377056231454.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "11",
+      "categoryId": 2,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h42/h78/82920434892830.jpg?format=gallery-medium",
+      "name": "Chehol",
+      "description": "Pink Chehol for Power Adapter",
+      "rating": 4.5,
+      "link": "https://kaspi.kz/shop/p/nrs1708-rozovyi-112638500/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h42/h78/82920434892830.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "12",
+      "categoryId": 2,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h4b/hd8/87059455311902.png?format=gallery-medium",
+      "name": "Cable Apple Lightning",
+      "description": "USB Type C",
+      "rating": 5,
+      "link": "https://kaspi.kz/shop/p/kabel-apple-lightning-m-usb-typec-m-belyi-40500508/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h4b/hd8/87059455311902.png?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "13",
+      "categoryId": 2,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h21/h36/85428899414046.png?format=gallery-medium",
+      "name": "Samsung Galaxy A55",
+      "description": "256Gb Dark Blue",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/samsung-galaxy-a55-5g-8-gb-256-gb-temno-sinii-117420207/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h21/h36/85428899414046.png?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "21",
+      "categoryId": 3,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/he9/h9a/80548098342942.jpg?format=gallery-medium",
+      "name": "Felix",
+      "description": "Cat food",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/felix-appetitnye-kusochki-v-zhele-forel-75-g-1-sht-107965332/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/he9/h9a/80548098342942.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "22",
+      "categoryId": 3,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hba/hb2/85950854856734.jpg?format=gallery-medium",
+      "name": "KiteKat",
+      "description": "KiteKat with meat",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/kitekat-teljatinka-appetitnaja-teljatina-1-9-kg-100221515/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/hba/hb2/85950854856734.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "23",
+      "categoryId": 3,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h78/he0/84784550412318.jpg?format=gallery-medium",
+      "name": "Gourmet",
+      "description": "Pashtet Gourmet",
+      "rating": 4.9,
+      "link": "https://kaspi.kz/shop/p/gourmet-pashtet-indeika-85-g-1-sht-100218883/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h78/he0/84784550412318.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "24",
+      "categoryId": 3,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/p63/p9b/10115032.jpg?format=gallery-medium",
+      "name": "Purina One",
+      "description": "Checket for cats",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/purina-one-kusochki-v-zhele-kuritsa-fasol-75-g-1-sht-105771030/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/p63/p9b/10115032.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "25",
+      "categoryId": 3,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/pdf/p13/12029191.jpg?format=gallery-medium",
+      "name": "Whiskas",
+      "description": "for cats",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/whiskas-kusochki-v-zhele-govjadina-85-g-1-sht-115028268/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/pdf/p13/12029191.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "31",
+      "categoryId": 4,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h09/h0f/84939931189278.jpg?format=gallery-medium",
+      "name": "Ring",
+      "description": "Heart shaped ring",
+      "rating": 3.7,
+      "link": "https://kaspi.kz/shop/p/kol-tso-razmer-reguliruemyi-bizhuternyi-splav-perlamutr-115959663/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h09/h0f/84939931189278.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "32",
+      "categoryId": 4,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hf3/h7d/86988395839518.jpg?format=gallery-medium",
+      "name": "Ring",
+      "description": "Silver Ring",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/kol-tso-razmer-reguliruemyi-titan-fianit-123047585/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/hf3/h7d/86988395839518.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "33",
+      "categoryId": 4,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h9a/h17/84946989482014.jpg?format=gallery-medium",
+      "name": "Podveska",
+      "description": "Moon podveska",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/tsep-dlina-35-sm-bizhuternyi-splav-straz-115980054/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h9a/h17/84946989482014.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "34",
+      "categoryId": 4,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h25/hce/69489076142110.jpg?format=gallery-medium",
+      "name": "Fashion Jewelry",
+      "description": "Golden fasion jewelry",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/nabor-fashion-jewelry-bizhuternyi-splav-titan-strazy-iskusstvennyi-zhemchug-109101372/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h25/hce/69489076142110.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "35",
+      "categoryId": 4,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h88/h6d/86193632509982.jpg?format=gallery-medium",
+      "name": "Earrings",
+      "description": "Flower earrings",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/ser-gi-plastik-nerzhavejuschaja-stal-bez-vstavok-120054550/?c=750000000",
+      "gallery": [
+        "https://resources.cdn-kaspi.kz/img/m/p/h88/h6d/86193632509982.jpg?format=gallery-medium"
+      ],
+      "likes": 0
+    }
+  ]
+}
